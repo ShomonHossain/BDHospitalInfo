@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logo_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPDATE HOSPITAL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Hospital"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="8"
+                android:hint="United Hospital"
+                android:paddingLeft="10dp"
+                android:background="@color/colorYellowLight"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="8"
+                android:hint="Dhaka"
+                android:paddingLeft="10dp"
+                android:background="@color/colorYellowLight"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="8"
+                android:hint="Gulshan-2, Dhaka-1212"
+                android:paddingLeft="10dp"
+                android:background="@color/colorYellowLight"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Mobile"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="8"
+                android:hint="01912095925"
+                android:paddingLeft="10dp"
+                android:background="@color/colorYellowLight"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="8"
+                android:hint="united@yahoo.com"
+                android:paddingLeft="10dp"
+                android:background="@color/colorYellowLight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Website"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="8"
+                android:hint="www.united.com"
+                android:paddingLeft="10dp"
+                android:background="@color/colorYellowLight"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Specialty"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="8"
+                android:hint="Heart, Other"
+                android:paddingLeft="10dp"
+                android:background="@color/colorYellowLight"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="8"
+                android:hint="3 star Hospital"
+                android:paddingLeft="10dp"
+                android:background="@color/colorYellowLight"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Rating"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/star_icon"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/star_icon"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/star_icon"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/star_icon"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="2"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="UPDATE HOSPITAL"
+                android:background="@color/colorYellow"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="left"
+                android:layout_weight="8"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
